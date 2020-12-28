@@ -289,7 +289,7 @@ ul.social-network li {
   }
 
   footer h4 {
-    font-size: 7px;
+    font-size: 8px;
     font-weight: bold;
   }
 
@@ -355,9 +355,9 @@ ul.social-network li {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 15px;
-    height: 15px;
-    font-size: 10px;
+    width: 12px;
+    height: 12px;
+    font-size: 9px;
   }
   
   .social-circle li i {
@@ -384,4 +384,7 @@ ul.social-network li {
     color: white;
   }
 
+  row {
+    margin: 0px;
+  }
 }
