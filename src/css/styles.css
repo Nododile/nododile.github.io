@@ -4,11 +4,14 @@
 
 body {
   background-image: url('../img/bg.png');
+   overflow: scroll;
+ 
 }
 
 
 /*cursor customization*/
 .cursor {
+  
   width: 20px;
   height: 20px;
   border: 1px solid white;
@@ -133,7 +136,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  
+   overflow: scroll;
 }
 
 footer a {
@@ -244,7 +247,7 @@ ul.social-network li {
 @media only screen and (max-device-width : 1024px) {
 
 
-  
+ 
 .button-wrapper {
   display: flex;
   justify-content: center;
@@ -271,7 +274,7 @@ ul.social-network li {
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
     background: linear-gradient(59deg, #3A6073, #16222A);
     color: white;
-    margin-top:2px;
+    margin-top:1px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -282,11 +285,12 @@ ul.social-network li {
     color: #fff;
     font-size: 8px;
     transition-duration: 0.2s;
-    font-weight: bold;
+    
   }
 
   footer h4 {
-    font-size: 15px;
+    font-size: 7px;
+    font-weight: bold;
   }
 
   footer a:hover {
@@ -296,12 +300,12 @@ ul.social-network li {
   
   .copy {
     font-size: 7px;
-    padding: 7px;
+    padding: 3px;
     border-top: 1px solid #FFFFFF;
   }
   
   .footer-middle {
-    padding-top: 2em;
+    padding-top: 1em;
     color: white;
   }
   
@@ -319,7 +323,7 @@ ul.social-network li {
   
   ul.social-network li {
     display: inline;
-    margin: 0 5px;
+    margin: 0 2px;
   }
   
   
@@ -351,14 +355,14 @@ ul.social-network li {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 20px;
-    height: 20px;
-    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
   }
   
   .social-circle li i {
     margin: 0;
-    line-height: 20px;
+    line-height: 10px;
     text-align: center;
   }
   
@@ -374,4 +378,10 @@ ul.social-network li {
   .social-network a {
     background-color: #F9F9F9;
   }
+
+  .text-center {
+    font-size: 7px;
+    color: white;
+  }
+
 }
