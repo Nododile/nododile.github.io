@@ -266,11 +266,8 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 
 @media only screen and (max-device-width : 1024px) {
 
-.body-1 {
+section {
   display: block;
-  height: 400px;
-  width: auto;
-
 }
  
 .button-wrapper {
