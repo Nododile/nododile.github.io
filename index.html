@@ -22,116 +22,123 @@
 
 
 <body>
+    <section>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div class="cursor"></div>
+                <script>
+                    const cursor = document.querySelector('.cursor');
 
-    <div id="page-container">
-        <div id="content-wrap">
-            <div class="cursor"></div>
-            <script>
-                const cursor = document.querySelector('.cursor');
+                    document.addEventListener('mousemove', e => {
+                        cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+                    })
 
-                document.addEventListener('mousemove', e => {
-                    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
-                })
+                    document.addEventListener('click', () => {
+                        cursor.classList.add("expand");
 
-                document.addEventListener('click', () => {
-                    cursor.classList.add("expand");
+                        setTimeout(() => {
+                            cursor.classList.remove("expand");
+                        }, 500)
+                    })
+                </script>
 
-                    setTimeout(() => {
-                        cursor.classList.remove("expand");
-                    }, 500)
-                })
-            </script>
+                <div class="button-wrapper">
+                    <button class="button" onclick="window.open('https://forms.gle/YGToT1U2zPD3mZbPA')"><span>Make My
+                            CV</span></button>
+                </div>
 
-            <div class="button-wrapper">
-                <button class="button" onclick="window.open('https://forms.gle/YGToT1U2zPD3mZbPA')"><span>Make My
-                        CV</span></button>
+
             </div>
+    </section>
 
+    <section>
+        <div class="body-1">
 
         </div>
+    </section>
 
-        <footer class="footer" role="contentinfo">
-            <div class="footer-middle">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <!--Column1-->
-                            <div class="footer-pad">
-                                <h4>Products/Services</h4>
-                                <ul class="list-unstyled">
-                                    <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">C-Vity Vitae</a>
-                                    </li>
-
-                                </ul>
-
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <!--Column1-->
-                            <div class="footer-pad">
-                                <h4>Payments</h4>
-                                <ul class="list-unstyled">
-                                    <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">Cryptocurrency</a>
-                                    </li>
-                                    <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">Bank</a>
-                                    </li>
-
-                                </ul>
-
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <!--Column1-->
-                            <div class="footer-pad">
-                                <h4>About Us</h4>
-                                <ul class="list-unstyled">
-                                    <li><a href="#" target="_blank">Team</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <!--Column1-->
-                            <div class="footer-pad">
-                                <h4>Branding Guide</h4>
-                                <ul class="list-unstyled">
-                                    <li><a href="#" target="_blank">Logs</a></li>
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Follow Us</h4>
-                            <ul class="social-network social-circle">
-                                <li><a href="https://fb.com/mycvityvitae" target="_blank" class="icoFacebook"
-                                        title="Facebook"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/cvityworld" target="_blank" class="icoTwitter"
-                                        title="Twitter"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="https://www.youtube.com/channel/UCKd9MNdaI50qbXFCL5ji86A" target="_blank"
-                                        class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a>
-                                </li>
-                                <li><a href="https://Instagram.com/cvityworld" target="_blank" class="icoInstagram"
-                                        title="Instagram"><i class="fa fa-instagram"></i></a>
+    <footer class="footer" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Products/Services</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">C-Vity Vitae</a>
                                 </li>
 
                             </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 copy">
-                            <p class="text-center">C-Vity, Inc. &copy; Copyright 2020 - All rights reserved. </p>
-                        </div>
-                    </div>
 
 
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Payments</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">Cryptocurrency</a>
+                                </li>
+                                <li><a href="https://forms.gle/YGToT1U2zPD3mZbPA" target="_blank">Bank</a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>About Us</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" target="_blank">Team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Branding Guide</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" target="_blank">Logs</a></li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                        <ul class="social-network social-circle">
+                            <li><a href="https://fb.com/mycvityvitae" target="_blank" class="icoFacebook"
+                                    title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/cvityworld" target="_blank" class="icoTwitter"
+                                    title="Twitter"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCKd9MNdaI50qbXFCL5ji86A" target="_blank"
+                                    class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a>
+                            </li>
+                            <li><a href="https://Instagram.com/cvityworld" target="_blank" class="icoInstagram"
+                                    title="Instagram"><i class="fa fa-instagram"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">C-Vity, Inc. &copy; Copyright 2020 - All rights reserved. </p>
+                    </div>
+                </div>
+
+
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
 
 
