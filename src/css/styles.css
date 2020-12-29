@@ -260,7 +260,9 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   .text-center {
     color: white;
   }
-
+  .col-md-3 {
+  padding: 3px;
+  }
 
 @media only screen and (max-device-width : 1024px) {
 
@@ -357,19 +359,19 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 }
 
 .social-network a.icoTwitter:hover i {
-  color: #1DA1F2;
-}
+    color: #1DA1F2;
+  }
 
-.social-network a.icoFacebook:hover i {
-  color: #fff;
-}
+  .social-network a.icoFacebook:hover i {
+    color: #fff;
+  }
 
-.social-network a.icoYoutube:hover i {
-  color:  #FF0000;
-}
+  .social-network a.icoYoutube:hover i {
+    color:  #FF0000;
+  }
 
-.social-network a.icoInstagram:hover i {
-background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  .social-network a.icoInstagram:hover i {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
    background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -415,9 +417,5 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   .text-center {
     font-size: 7px;
     color: white;
-  }
-
-  row {
-    margin: 0px;
   }
 }
