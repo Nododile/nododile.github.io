@@ -131,7 +131,8 @@ footer {
   background: linear-gradient(59deg, #3A6073, #16222A);
   color: white;
   margin-top:100px;
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
 }
@@ -266,10 +267,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 
 @media only screen and (max-device-width : 1024px) {
 
-section {
-  display: block;
-}
- 
+
 .button-wrapper {
   display: flex;
   justify-content: center;
@@ -297,7 +295,8 @@ section {
     background: linear-gradient(59deg, #3A6073, #16222A);
     color: white;
     margin-top:1px;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     
