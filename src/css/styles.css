@@ -182,13 +182,28 @@ ul.social-network li {
   background-color: #3B5998;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+.social-network a.icoTwitter:hover {
+  background-color: #FFFFFF;
 }
 
-.social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
+.social-network a.icoTwitter:hover i {
+  color: #1DA1F2;
+}
+
+.social-network a.icoFacebook:hover i {
   color: #fff;
+}
+
+.social-network a.icoYoutube:hover i {
+  color:  #FF0000;
+}
+
+.social-network a.icoInstagram:hover i {
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .social-network a.socialIcon:hover,
@@ -332,17 +347,32 @@ ul.social-network li {
   
   /* footer social icons */
   
-  .social-network a.icoFacebook:hover {
-    background-color: #3B5998;
-  }
   
-  .social-network a.icoLinkedin:hover {
-    background-color: #007bb7;
-  }
-  
-  .social-network a.icoFacebook:hover i,
-  .social-network a.icoLinkedin:hover i {
-    color: #fff;
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #FFFFFF;
+}
+
+.social-network a.icoTwitter:hover i {
+  color: #1DA1F2;
+}
+
+.social-network a.icoFacebook:hover i {
+  color: #fff;
+}
+
+.social-network a.icoYoutube:hover i {
+  color:  #FF0000;
+}
+
+.social-network a.icoInstagram:hover i {
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
   .social-network a.socialIcon:hover,
