@@ -121,7 +121,7 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: #262626;
+  background: transparent;
   height: 70px;
   width: 70px;
 }
@@ -178,7 +178,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #ffffff;
+  background: #000000;
   position: absolute;
   display: block;
   content: '';
@@ -344,7 +344,7 @@ footer {
 
 footer a {
   color: #fff;
-  font-size: 14px;
+  font-size: 30px;
   transition-duration: 0.2s;
 }
 
@@ -509,14 +509,15 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   
   footer a {
     color: #fff;
-    font-size: 8px;
+    font-size: 12px;
     transition-duration: 0.2s;
     
   }
 
   footer h4 {
-    font-size: 8px;
+    font-size: 15px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   footer a:hover {
