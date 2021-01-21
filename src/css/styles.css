@@ -743,7 +743,7 @@ margin-left: 10px;
 display: inline-block;
 line-height: 18px;
 vertical-align: middle;
-  color:#3a9fff;
+  color:white;
 }
 
 .footer__light{
@@ -979,6 +979,4 @@ margin-top: 0;
     font-size: 12px;
     float: none;
 }
- 
-
 }
