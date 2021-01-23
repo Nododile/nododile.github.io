@@ -757,11 +757,19 @@ left: 20%;
 
 .footer__social {
   float: right;
+  
 }
 
 .footer__social-l {
   margin-left: 15px;
   vertical-align: middle;
+  display: inline-block;
+  
+}
+
+.footer__social-l img {
+  height: 25px;
+  width: 25px;
 }
 
 @media screen and (max-width:1024px){
