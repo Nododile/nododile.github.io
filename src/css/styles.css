@@ -11,7 +11,7 @@ html, body{
 
 
 body{
-background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -307,9 +307,7 @@ color: #fff;
   margin-right:10px;
 }
 
-.carousel{
-    
-}
+
 
 .row__carousel{
   display:inline-block;
@@ -480,6 +478,7 @@ margin: 50px auto 15px auto;
 .header__el{
     padding: 0 25px;
     display: inline-block;
+  
 }
 .header__img{
   display: inline-block;
@@ -502,20 +501,18 @@ margin: 50px auto 15px auto;
   vertical-align: middle;
 }
 
-.header__light{
-  color: #8198ae;
-}
+
 .header__link{
-  color: #1f4568;
+  color: white;
   font-size: 14px;
 
 }
 .header__link:hover{
   text-decoration: none;
-  color:#3a9fff;
+  color: pink;
 }
 .navbar-toggle .icon-bar{
-  background-color: #8198ae;
+  background-color: white;
 }
 .navbar-toggle {
     margin: 5px 0;
@@ -751,9 +748,7 @@ left: 20%;
   color:white;
 }
 
-.footer__light{
-  color:#fff;
-}
+
 
 .footer__social {
   float: right;
@@ -785,12 +780,13 @@ left: 20%;
 .header__container{
   width: 100%;
   padding: 0;
+  color: white;
   }
 .header__menu {
   width: 100%;
 }
 .header{
-  background-color:#fff; 
+  background-color: #000000; 
   padding: 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   position: fixed;
@@ -798,6 +794,7 @@ left: 20%;
   left: 0;
   width: 100%;
   z-index: 4;
+
 }
 .header__logo{
   padding: 12px 20px 12px 20px;
@@ -813,10 +810,10 @@ left: 20%;
   border: 0;
   box-shadow: none;
   color:#fff;
-  background-color:transparent;
+  background-color: black;
 }
 .header__el--blue{
-  background-color:#3a9fff;
+  background-color: black;
 }
 
 }
