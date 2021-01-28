@@ -11,7 +11,8 @@ html, body{
 
 
 body{
-  background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  /* background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png"); */
+ 
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -23,9 +24,17 @@ body{
   position: relative;
 }
 
+.section-001{
+  background-image: url('../img/home-page-bg.png');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   min-height: 300px;
+}
 
 .collapse{
  display: block;
+ 
 }
 
 .sect--grey{
@@ -307,7 +316,9 @@ color: #fff;
   margin-right:10px;
 }
 
-
+.carousel{
+    
+}
 
 .row__carousel{
   display:inline-block;
@@ -478,7 +489,6 @@ margin: 50px auto 15px auto;
 .header__el{
     padding: 0 25px;
     display: inline-block;
-  
 }
 .header__img{
   display: inline-block;
@@ -501,18 +511,20 @@ margin: 50px auto 15px auto;
   vertical-align: middle;
 }
 
-
+.header__light{
+  color: #8198ae;
+}
 .header__link{
-  color: white;
+  color: #1f4568;
   font-size: 14px;
 
 }
 .header__link:hover{
   text-decoration: none;
-  color: pink;
+  color:#3a9fff;
 }
 .navbar-toggle .icon-bar{
-  background-color: white;
+  background-color: #8198ae;
 }
 .navbar-toggle {
     margin: 5px 0;
@@ -748,7 +760,9 @@ left: 20%;
   color:white;
 }
 
-
+.footer__light{
+  color:#fff;
+}
 
 .footer__social {
   float: right;
@@ -780,13 +794,12 @@ left: 20%;
 .header__container{
   width: 100%;
   padding: 0;
-  color: white;
   }
 .header__menu {
   width: 100%;
 }
 .header{
-  background-color: #000000; 
+  background-color:#fff; 
   padding: 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   position: fixed;
@@ -794,7 +807,6 @@ left: 20%;
   left: 0;
   width: 100%;
   z-index: 4;
-
 }
 .header__logo{
   padding: 12px 20px 12px 20px;
@@ -802,7 +814,7 @@ left: 20%;
 .header__el {
   display: block;
   padding: 10px 20px;
-  border-top: 1px solid #ededed;
+  border-top: 1px solid #000000;
 }
   
 .header .btn--white, .header .btn--white:hover{
@@ -810,10 +822,10 @@ left: 20%;
   border: 0;
   box-shadow: none;
   color:#fff;
-  background-color: black;
+  background-color:transparent;
 }
 .header__el--blue{
-  background-color: black;
+  background-color:#3a9fff;
 }
 
 }
