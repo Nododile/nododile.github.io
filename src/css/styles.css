@@ -11,7 +11,8 @@ html, body{
 
 
 body{
-background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  /* background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png"); */
+ 
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -23,13 +24,21 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   position: relative;
 }
 
-
-.collapse{
- display: block;
+.section-001{
+  background-image: url('../img/home-page-bg.png');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   min-height: 300px;
 }
 
-.sect--grey{
-  /*background-color: #ebeff9;*/
+.section-002{
+  background-color: #f1f1f1;
+  min-height: 300px;
+}
+
+.collapse{
+ display: block; 
 }
 
 .sect--violet{
@@ -44,9 +53,6 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   padding-top:90px;
 }
 
-.sect--white{
- /* background-color:#fff;*/
-}
 .row--center{
   max-width: 1000px;
   margin: 0 auto;
@@ -307,9 +313,7 @@ color: #fff;
   margin-right:10px;
 }
 
-.carousel{
-    
-}
+
 
 .row__carousel{
   display:inline-block;
@@ -449,8 +453,8 @@ margin: 50px auto 15px auto;
 }
 
 .site__subtitle{
-    font-size: 22px;
-    color: #8198ae;
+    font-size: 20px;
+    color: #f36615e3;
     margin: 15px 0 40px 0;
     text-align: center;
 }
@@ -468,6 +472,14 @@ margin: 50px auto 15px auto;
 /*menu header*/
 .header{
   padding: 30px 25px;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.main{
+  padding: 16px;
+  margin-top: 70px;
 }
 .header__elenco {
     padding: 0;
@@ -805,7 +817,7 @@ left: 20%;
 .header__el {
   display: block;
   padding: 10px 20px;
-  border-top: 1px solid #ededed;
+  border-top: 1px solid #000000;
 }
   
 .header .btn--white, .header .btn--white:hover{
