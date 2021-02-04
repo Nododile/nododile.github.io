@@ -300,10 +300,10 @@ color: #fff;
 }
 
 .price-box__btn {
-    position: absolute;
-    bottom: -17px;
-    left: 50%;
-    margin-left: -55px;
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  margin-left: -55px;
 }
 
 .row__sub--light{
