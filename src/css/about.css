@@ -15,7 +15,9 @@ body{
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
+  min-height: 100%;
 }
+
 
 
 .section-001{
@@ -130,20 +132,26 @@ body{
   white-space: nowrap;
   vertical-align: middle;
 }
-
-
-
-
+.section-001{
+  background-image: url('../img/about-page-bg.png');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   min-height: 300px;
+}
 
 
 
 .footer{
   background-color: #1f4467; 
-  padding: 40px 0;
+  padding: 40px 0px;
+  position:fixed;
+  bottom:0;
+  width: 100%;
 }
 
 .footer__title{
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
   margin-left: 0px;
   margin-left: 10px;
