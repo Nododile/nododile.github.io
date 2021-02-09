@@ -32,11 +32,114 @@ body{
 }
 
 .section-002{
-  margin-top: 30px;
+  
   padding: 10px;
   background-color: #ececec;
   min-height: 300px;
 }
+
+.section-003{
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 450px;
+}
+
+.why-title{
+  text-align: center;
+}
+
+.why-c-vity, p{
+  font-size: 20px;
+}
+
+.why-c-vity{
+  position: relative;
+  margin: 20px 10px 40px 20px;
+  font-size: 30px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.why-c-vity > div {
+  overflow: hidden;
+}
+.why-c-vity > div > p {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  white-space: nowrap;
+  margin: 0;
+  line-height: 117%;
+  padding-top: 25px;
+}
+
+
+div.why-c-vity > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.why-c-vity > div:nth-child(2) > p {
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+
+div.why-c-vity > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.why-c-vity > div:nth-child(3) > p {
+  -webkit-animation-delay: 0.075s;
+          animation-delay: 0.075s;
+}
+div.why-c-vity > div:nth-child(4) > p {
+  -webkit-animation-delay: 0.075s;
+          animation-delay: 0.075s;
+}
+
+.slide-up {
+  -webkit-animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+          animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*why c-vity animation done*/
+
+/*stats - start*/
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+  flex-direction: column;
+}
+
+ .counter {
+  font-size: 60px;
+  margin-top: 10px;
+  color: #000;
+}
+/*stats -  end*/
+
+
 
 .collapse{
  display: block; 
@@ -284,6 +387,17 @@ color: #fff;
 .btn--blue:hover {
     background-color: #63b2fc;
 }
+/*payment button - start*/
+.button{
+  width: 120px;
+  margin: 10px 10px 10px 20px;
+}
+
+
+
+/*payment button - end*/
+
+
 .btn--width{
   width: 120px;
 }
@@ -913,6 +1027,20 @@ padding: 15px 25px;
 
 
 @media screen and (max-width:480px){
+  .counter {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #000;
+}
+
+  .why-c-vity, p{
+  font-size: 14px;
+  }
+  
+  .why-title, h1{
+    font-size: 25px;
+  }
+  
   .price-box {
     padding: 0px 20px;
   }
