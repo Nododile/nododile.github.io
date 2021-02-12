@@ -402,6 +402,7 @@ color: #fff;
   width: 120px;
 }
 
+
 .btn--white{
   background-color: #fff;
   border: 1px solid #ededed;
@@ -411,6 +412,7 @@ color: #fff;
 .btn--white:hover{
   background-color: #fff;
   color: #8198ae;
+  
 }
 
 .price-box__btn {
