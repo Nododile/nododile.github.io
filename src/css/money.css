@@ -137,7 +137,7 @@ dd, dl, figure, p {
 }
 .wrapper .wrapper__content ul li .name span.stat {
   color: #333333;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
 }
 .wrapper .wrapper__content ul li .name span.sub {
@@ -153,7 +153,7 @@ dd, dl, figure, p {
 .section-003{
   background-color: #fff;
   border-radius: 10px;
-  min-height: 450px;
+  min-height: 600px;
 }
 
 .why-title{
