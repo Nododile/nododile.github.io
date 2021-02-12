@@ -58,6 +58,7 @@ dd, dl, figure, p {
 
 
 
+
 /*Leadership board - start*/
 .wrapper {
   max-width: 500px;
@@ -477,4 +478,135 @@ div.why-c-vity > div:nth-child(4) > p {
     margin-left: 1px;
     font-weight: bold;
   }
+  
+/*Leadership board - start*/
+.wrapper {
+  max-width: 500px;
+  align-self: center;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.wrapper .wrapper__header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #3558db;
+  padding: 27px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .wrapper__header .b_caption p {
+  color: #dae0fb;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.wrapper .wrapper__header .b_caption p span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 8px;
+}
+.wrapper .wrapper__content {
+  background: #fff;
+  padding: 10px;
+}
+.wrapper .wrapper__content ul {
+  list-style: none;
+  overflow:hidden;
+  overflow-y:scroll;
+  height: 400px;
+}
+.wrapper .wrapper__content ul li {
+  cursor: pointer;
+  background: #fefefe;
+  padding: 10px 5px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .wrapper__content ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.wrapper .wrapper__content ul li .graphic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ebeef3;
+  overflow: hidden;
+  padding: 5px;
+}
+.wrapper .wrapper__content ul li .graphic img {
+  width: 100%;
+  border-radius: 50%;
+}
+.wrapper .wrapper__content ul li .name span {
+  vertical-align: middle;
+}
+.wrapper .wrapper__content ul li .name span.header {
+  color: #979cb0;
+  font-weight: 700;
+  margin-right: 50px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.wrapper .wrapper__content ul li .name span.stat {
+  color: #333333;
+  font-weight: 400;
+  font-size: 20px;
+}
+.wrapper .wrapper__content ul li .name span.sub {
+  color: #35d8ac;
+  font-weight: 700;
+  font-size: 10px;
+  vertical-align:sub;
+}
+/*Leadership board - end*/
+
+/*header - start*/
+
+.c-header-000{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.c-header-description{
+  color: rgb(102, 102, 102);
+  max-width: 55ch;
+  text-align: center;
+  align-self: center;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+/*header - end*/
+
+/*Description of payouts - start*/
+
+.why-c-vity, p{
+  font-size: 14px;
+}
+/*Description of payouts - end*/
+
+/*sign up button for payouts - start*/
+.button-payouts-signup{
+  background-color: #3a9fff;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px 14px;
+  margin: 20px;
+}
+/*sign up button for payouts - end*/
+
+
 }
