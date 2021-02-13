@@ -107,7 +107,7 @@ dd, dl, figure, p {
   border-radius: 2px;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-between;
+  justify-content:left;
   align-items: center;
 }
 
@@ -126,20 +126,22 @@ dd, dl, figure, p {
   width: 100%;
   border-radius: 50%;
 }
-.wrapper .wrapper__content ul li .name span {
+.wrapper .wrapper__content ul li .name {
+  margin: 10px;
   vertical-align: middle;
 }
 .wrapper .wrapper__content ul li .name span.header {
   color: #979cb0;
   font-weight: 700;
-  margin-right: 200px;
+  margin-right: 180px;
   vertical-align: middle;
   font-size: 20px;
 }
-.wrapper .wrapper__content ul li .name span.stat {
+.wrapper .wrapper__content ul li .stat {
   color: #333333;
   font-weight: 400;
   font-size: 20px;
+  text-align: right;
 }
 .wrapper .wrapper__content ul li .name span.sub {
   color: #35d8ac;
