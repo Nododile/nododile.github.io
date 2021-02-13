@@ -554,14 +554,14 @@ div.why-c-vity > div:nth-child(4) > p {
 .wrapper .wrapper__content ul li .name span.header {
   color: #979cb0;
   font-weight: 700;
-  margin-right: 50px;
+  margin-right: 70px;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 14px;
 }
 .wrapper .wrapper__content ul li .name span.stat {
   color: #333333;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
 }
 .wrapper .wrapper__content ul li .name span.sub {
   color: #35d8ac;
