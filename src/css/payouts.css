@@ -140,7 +140,7 @@ dd, dl, figure, p {
 .wrapper .wrapper__content ul li .stat {
   color: #333333;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   text-align: right;
 }
 .wrapper .wrapper__content ul li .name span.sub {
@@ -721,7 +721,7 @@ div.why-c-vity > div:nth-child(4) > p {
 .wrapper .wrapper__content ul li .stat {
   color: #333333;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
 }
 .wrapper .wrapper__content ul li .name span.sub {
   color: #35d8ac;
@@ -769,6 +769,4 @@ div.why-c-vity > div:nth-child(4) > p {
   margin: 20px;
 }
 /*sign up button for payouts - end*/
-
-
 }
