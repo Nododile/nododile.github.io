@@ -46,6 +46,10 @@ dd, dl, figure, p {
   text-align: center;
 }
 
+.payout-users{
+  text-align: center;
+}
+
 .c-header-description{
   color: rgb(102, 102, 102);
   max-width: 55ch;
@@ -323,15 +327,30 @@ div.why-c-vity > div:nth-child(4) > p {
     color: #8198ae;
 }
 
+.special-button-payouts{
+  margin: 0;
+  align-content: center;
+  padding: 20px;
+}
+
 .button-payouts-signup{
+  
   background-color: #3a9fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   border-radius: 25px;
-  
   padding: 15px 25px;
   margin: 20px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color:#3a9fff; -webkit-box-shadow: 0 0 3px #3a9fff; }
+  50% { background-color: #3a9fff; -webkit-box-shadow: 0 0 40px #3a9fff; }
+  100% { background-color: #3a9fff; -webkit-box-shadow: 0 0 3px #3a9fff ; }
 }
 
 
