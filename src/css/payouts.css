@@ -39,6 +39,7 @@ dd, dl, figure, p {
 }
 
 .c-header-000{
+  padding: 15px;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 0rem;
