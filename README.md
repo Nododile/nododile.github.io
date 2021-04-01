@@ -8,6 +8,6 @@
  - Domain https://c-vity.com
 
 ### Want to contribute?
-- [x] clone this repository or make a pull request(PR)
-- I will be making a contributors list anytime soon
-- More updates & info coming soon
+- [x] Make a pull request(PR)
+- I will be making a contributors' list anytime soon . . .
+- More updates & info coming
