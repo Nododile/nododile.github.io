@@ -9,5 +9,5 @@
 
 ### Want to contribute?
 - [x] Make a pull request(PR)
-- I will be making a contributors' list anytime soon . . .
+- I will be making a contributors' list anytime soon 
 - More updates & info coming!
