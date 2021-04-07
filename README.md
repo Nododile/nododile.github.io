@@ -1,6 +1,6 @@
 # Hi. Welcome to C-Vity!
 - I envisioned C-Vity has a tool where people can use to make professional, decent and well-written curriculum vitae/CV or resumes with motivational letters included.
-- So far, it is an active personal project and I develop it whenever I find time.
+- So far, it is an active personal project and I develop it whenever I find time usually week.
 
 ### Info
  - C-Vity Website
