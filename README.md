@@ -11,3 +11,4 @@
 - Make a pull request(PR)
 - I will be making a contributors' list anytime soon 
 - More updates & info coming!
+- Send me a text 6636345e@gmail.com
