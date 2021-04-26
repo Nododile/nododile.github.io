@@ -249,6 +249,36 @@ div.why-c-vity > div:nth-child(4) > p {
   padding-bottom:115px;
 }
 
+.sect--padding-top{
+  padding-top:90px;
+}
+
+.row--center{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.row--margin{
+  margin-top:45px;
+}
+
+.row__title{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.row__sub{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px; 
+  color: #8198ae;
+}
+
+.price-box{
+  padding: 0px 25px;  
+}
 
 
 /*menu nav*/
@@ -315,7 +345,6 @@ div.why-c-vity > div:nth-child(4) > p {
 .navbar-toggle {
     margin: 5px 0;
 }
-
 
 
 .btn--white {
