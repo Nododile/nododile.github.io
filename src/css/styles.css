@@ -21,15 +21,16 @@ html, body{
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
+ 
 }
 @-webkit-keyframes glowing {
-  0% { background-color:#ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
-  50% { background-color: #ffd700; -webkit-box-shadow: 0 0 40px #ffd700; }
-  100% { background-color: #ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
+  0% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
 
 body{
-  background-image:url("../img/bg-image.png");  
+  background-color: #e8eaf0;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -40,23 +41,15 @@ body{
   position: relative;
 }
 
-.section-001{
-  background-image: url('../img/home-page-bg.png');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
-  min-height: 300px;
-}
 
 .section-002{
   
   padding: 10px;
-  background-color: #ececec;
   min-height: 300px;
 }
 
 .section-003{
-  background-color: #fff;
+
   border-radius: 10px;
   min-height: 450px;
 }
@@ -406,8 +399,13 @@ color: #fff;
 }
 /*payment button - start*/
 .button{
-  width: 120px;
+  width: 100px;
+  color: #1f4467;
   margin: 10px 10px 10px 20px;
+  background-color: #e8eaf0;
+  font-family: 500;
+  font-size: 18px;
+  font-family: Ubuntu,sans-serif;
 }
 
 
@@ -423,7 +421,10 @@ color: #fff;
 .btn--white{
   background-color: #fff;
   border: 1px solid #ededed;
-  color: #8198ae;
+  color: #1f4568;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
 }
 
 .btn--white:hover{
@@ -587,10 +588,12 @@ margin-top: -90px;
 }
 
 .site__subtitle{
-    font-size: 20px;
-    color: #f36615e3;
+    font-size: 60px;
+    color: #212529;
     margin: 15px 0 40px 0;
     text-align: center;
+    font-weight: 800;
+    font-family: Ubuntu,sans-serif;
 }
 
 .site__img{
@@ -609,7 +612,7 @@ margin-top: -90px;
   position:absolute;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #e8eaf0;
 }
 .main{
   padding: 16px;
@@ -653,9 +656,34 @@ margin-top: -90px;
 .header__light{
   color: #8198ae;
 }
-.header__link{
-  color: #1f4568;
+
+.header__btext{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
   font-size: 14px;
+  color: #fff;
+}
+
+
+.header__link2{
+   margin: 10px 10px 10px 20px;
+    color: #1f4568;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
+    
+}
+.header__link2:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
+
+.header__link{
+    color: #1f4568;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
 
 }
 .header__link:hover{
@@ -968,15 +996,30 @@ padding: 15px 25px;
   background-color:#3a9fff;
 }
 
+   .site__subtitle{
+    font-size: 25px;
+    color: #212529;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-weight: 800;
+    font-family: Ubuntu,sans-serif;
+}
+
 }
 
 
 @media screen and (max-width:991px){
 
-  .site__subtitle {
-    font-size: 14px;
-    margin: 10px 0 20px 0;
-  }
+
+
+   .site__subtitle{
+    font-size: 25px;
+    color: #212529;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-weight: 800;
+    font-family: Ubuntu,sans-serif;
+}
   .price-box {
     padding: 0px 10px;
   }
@@ -993,10 +1036,15 @@ padding: 15px 25px;
 
 @media screen and (max-width:767px){
 
-   .site__subtitle {
-    font-size: 14px;
-    margin: 10px 0 20px 0;
-  }
+
+  .site__subtitle{
+    font-size: 25px;
+    color: #212529;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-weight: 800;
+    font-family: Ubuntu,sans-serif;
+}
 
   .footer {
     padding: 25px 0;
@@ -1048,6 +1096,28 @@ padding: 15px 25px;
 
 @media screen and (max-width:480px){
 
+   .site__subtitle{
+    font-size: 25px;
+    color: #212529;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-weight: 800;
+    font-family: Ubuntu,sans-serif;
+}
+
+.header__link2{
+   margin: 10px 10px 10px 20px;
+    color: #1f4568;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
+    
+}
+.header__link2:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
+
  .button-payouts-signup{
   padding: 0 15px;
   display: inline-block;
@@ -1065,9 +1135,9 @@ padding: 15px 25px;
   animation: glowing 1500ms infinite;
 }
 @-webkit-keyframes glowing {
-  0% { background-color:#ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
-  50% { background-color: #ffd700; -webkit-box-shadow: 0 0 40px #ffd700; }
-  100% { background-color: #ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
+  0% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
 
 
@@ -1168,10 +1238,7 @@ padding: 15px 25px;
   .site__title {
     font-size: 24px;
 }
-  .site__subtitle {
-    font-size: 14px;
-    margin: 10px 0 20px 0;
-  }
+
   .site__img {
     margin-top: 30px;
   }
@@ -1179,8 +1246,10 @@ padding: 15px 25px;
     margin-top: 30px;
 }
   .btn {
-    font-size: 12px;
+    font-size: 18px;
     padding: 8px 8px;
+    font-weight: 500;
+
 }
   .btn--width {
     width: 100px;
