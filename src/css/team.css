@@ -6,7 +6,7 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
- 
+  background-color: #e8eaf0;
 }
 
 
@@ -43,7 +43,7 @@ p,a,h1,h2,h3,h4 {
 .section-team .single-person {
 	margin-top: 30px;
 	padding: 30px;
-	background-color: #f6f9ff;
+	background-color: #e8eaf0;
 	border-radius: 5px;
 }
 
@@ -103,29 +103,37 @@ p,a,h1,h2,h3,h4 {
     color: #016cec;
 }
 
-.section-team .single-person:hover .full-name,
-.section-team .single-person:hover .speciality {
 
-}
 /*Team - End*/
+
+.header__btext{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;font-size: 14px;
+}
+.header__btext:hover{
+  text-decoration: none;
+  color:#fff;
+}
 
 .button-payouts-signup{
   padding: 0 25px;
   display: inline-block;
   font-size: 10px;
   text-align: center;
-  border-radius: 25px;
-  padding: 7px 7px;
-  margin: 10px;
+  border-radius: 35px;
+  padding: 10px 10px;
+  margin: 15px;
   -webkit-animation: glowing 1500ms infinite;
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
 }
 @-webkit-keyframes glowing {
-  0% { background-color:#ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
-  50% { background-color: #ffd700; -webkit-box-shadow: 0 0 40px #ffd700; }
-  100% { background-color: #ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
+  0% { background-color:#016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
 
 body{
@@ -224,7 +232,7 @@ body{
   position:absolute;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #e8eaf0;
 }
 .main{
   padding: 16px;
@@ -270,7 +278,9 @@ body{
 }
 .header__link{
   color: #1f4568;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
 
 }
 .header__link:hover{
@@ -540,28 +550,35 @@ color: #fff;
 
 @media screen and (max-width:480px){
 
+  .header__btext{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;font-size: 14px;
+  }
+  .header__btext:hover{
+  text-decoration: none;
+  color:#fff;
+  }
+
  .button-payouts-signup{
-  padding: 0 15px;
-  display: inline-block;
-  color: #1f4568;
-  font-size: 14px;
+  padding: 0 25px;
   display: inline-block;
   font-size: 10px;
   text-align: center;
-  border-radius: 25px;
-  padding: 7px 7px;
-  margin: 10px;
+  border-radius: 35px;
+  padding: 10px 10px;
+  margin: 15px;
   -webkit-animation: glowing 1500ms infinite;
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
 }
 @-webkit-keyframes glowing {
-  0% { background-color:#ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
-  50% { background-color: #ffd700; -webkit-box-shadow: 0 0 40px #ffd700; }
-  100% { background-color: #ffd700; -webkit-box-shadow: 0 0 3px #ffd700; }
+  0% { background-color:#016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
-
 
 
   .footer {
