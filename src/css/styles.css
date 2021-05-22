@@ -662,7 +662,6 @@ margin-top: -90px;
   font-size: 18px;
   font-weight: 500;
   font-family: Ubuntu,sans-serif;
-  font-size: 14px;
   color: #fff;
 }
 
@@ -673,8 +672,8 @@ margin-top: -90px;
     font-size: 18px;
     font-weight: 500;
     font-family: Ubuntu,sans-serif;
-    
 }
+
 .header__link2:hover{
   text-decoration: none;
   color:#3a9fff;

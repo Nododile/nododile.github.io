@@ -156,7 +156,8 @@ dd, dl, figure, p {
 
 
 .section-003{
-  background-color: #fff;
+  padding-top: 50px;
+  background-color:#e8eaf0;
   border-radius: 10px;
   min-height: 600px;
 }
@@ -287,10 +288,10 @@ div.why-c-vity > div:nth-child(4) > p {
   position:absolute;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #e8eaf0;
 }
 .main{
-  background-color: #fff;
+  background-color: #e8eaf0 ;
   padding: 16px;
   margin-top: 70px;
 }
@@ -332,7 +333,9 @@ div.why-c-vity > div:nth-child(4) > p {
 }
 .nav__link{
   color: #1f4568;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: Ubuntu,sans-serif;
+  font-weight: 500;
 
 }
 .nav__link:hover{
@@ -353,30 +356,28 @@ div.why-c-vity > div:nth-child(4) > p {
     color: #8198ae;
 }
 
-.special-button-payouts{
-  margin: 0;
-  align-content: center;
-  padding: 20px;
-}
 
-.button-payouts-signup{
-  
-  background-color: #3a9fff;
+
+.make_cv_button{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
   color: #fff;
-  font-size: 20px;
+  padding: 0 25px;
+  display: inline-block;
   text-align: center;
   border-radius: 25px;
-  padding: 15px 25px;
-  margin: 20px;
+  padding: 7px 7px;
+  margin: 10px;
   -webkit-animation: glowing 1500ms infinite;
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
 }
 @-webkit-keyframes glowing {
-  0% { background-color:#3a9fff; -webkit-box-shadow: 0 0 3px #3a9fff; }
-  50% { background-color: #3a9fff; -webkit-box-shadow: 0 0 40px #3a9fff; }
-  100% { background-color: #3a9fff; -webkit-box-shadow: 0 0 3px #3a9fff ; }
+  0% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
 
 
@@ -456,7 +457,8 @@ div.why-c-vity > div:nth-child(4) > p {
   width: 100%;
 }
 .nav{
-  background-color:#fff; 
+  background-color:#e8eaf0; 
+
   padding: 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   position: fixed;
@@ -473,6 +475,7 @@ div.why-c-vity > div:nth-child(4) > p {
   padding: 10px 20px;
   border-top: 1px solid #000000;
 }
+
   
 .nav .btn--white, .nav .btn--white:hover{
   padding: 0;
