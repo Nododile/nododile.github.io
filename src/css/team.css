@@ -300,6 +300,7 @@ body{
 }
 
 .career_title {
+  font-style: italic;
   color: #fff;
   font-size: 28px;
 }
@@ -353,6 +354,9 @@ body{
 
 
 .btn{
+  font-size: 16px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600;
   background-color:#3a9fff;
   border-radius: 20px;
   padding: 10px 25px;
@@ -637,6 +641,7 @@ color: #fff;
     width: 100px;
 }
   .career_title {
+    font-style: italic;
     font-size: 18px;
     margin-top: 0;
 }
