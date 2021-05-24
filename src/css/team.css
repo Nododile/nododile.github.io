@@ -300,6 +300,7 @@ body{
 }
 
 .career_title {
+  padding: 10px;
   font-style: italic;
   color: #fff;
   font-size: 28px;
@@ -310,6 +311,7 @@ body{
   color: #c7cbff;
   margin-top: 0;
   margin-bottom: 30px;
+
 }
 
 
