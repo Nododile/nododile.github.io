@@ -150,14 +150,6 @@ body{
 
 
 
-
-
-/*stats - start*/
-
-
-
-
-
 .collapse{
  display: block; 
 }
@@ -398,9 +390,7 @@ color: #fff;
 }
 
 
-.btn--purple {
-    background-color: #8a3aff;
-}
+
 
 .btn--purple:hover{
     background-color: #b284f6;
@@ -463,12 +453,7 @@ color: #fff;
   
 }
 
-.price-box__btn {
-  position: absolute;
-  bottom: -17px;
-  left: 50%;
-  margin-left: -55px;
-}
+
 @media screen and (max-width:1024px){
   .collapse{
  display: none;
