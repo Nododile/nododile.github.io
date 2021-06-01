@@ -1,6 +1,6 @@
 # Hi. Welcome to C-Vity Web Development Repo!
-- I envisioned C-Vity has a tool where people can use to make professional, decent and well-written curriculum vitae/CV or resumes with motivational letters included.
-- So far it is an active personal project and I develop it whenever I find time.
+- I envisioned C-Vity has a tool where people can use to make professional, decent and well-written CV or resumes with motivational letters included.
+- So far it is an active personal project.
 
 ### Info
  - C-Vity Website
