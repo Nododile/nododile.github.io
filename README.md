@@ -4,8 +4,8 @@
 
 ### Info
  - C-Vity Website
- - Launched a way where people can make people via C-Vity Payouts, check it and sign up then start working, here >> [C-Vity Payout](https://c-vity.com/payouts)
- - Domain https://c-vity.com
+ - Launched a way where people can make people via C-Vity Payouts, check it and sign up then start working, here [C-Vity Payout](https://c-vity.com/payouts)
+ - Domain https://6636345e.github.io/c-vity/
 
 ### Want to contribute?
 - Make a pull request(PR)
