@@ -9,56 +9,25 @@ html, body{
 }
 
 
-/*###############################################################
-Navigation - start
-################################################################
-*/
-.button-nav{
+.button-payouts-signup{
+  padding: 0 25px;
   display: inline-block;
   font-size: 10px;
   text-align: center;
-  border-radius: 30px;
-  padding: 10px 20px;
-  margin: 15px;
-  background-color:#016cec;
-  text-decoration: none;
+  border-radius: 25px;
+  padding: 7px 7px;
+  margin: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+ 
 }
-
-.header__link{
-  margin: 0;
-  margin-left: 10px;
-  display: inline-block;
-  line-height: 18px;
-  vertical-align: middle;
-  color: #1f4568;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: Ubuntu,sans-serif;
+@-webkit-keyframes glowing {
+  0% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
 }
-
-.header__link:hover{
-  text-decoration: none;
-  color:#3a9fff;
-}
-
-.header__btext{
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: Ubuntu,sans-serif;
-  color: #fff;
-}
-.header__btext:hover{
-  text-decoration: none;
-}
-
-/*#############################################
-Navigation - end
-##############################################
-*/
-
-
-
 
 body{
   background-color: #e8eaf0;
@@ -160,12 +129,6 @@ div.why-c-vity > div:nth-child(4) > p {
     transform: translateY(0);
   }
 }
-
-
-
-
-
-
 
 /*why c-vity animation done*/
 
@@ -626,7 +589,7 @@ margin-top: -90px;
 
 .site__subtitle{
     font-size: 60px;
-    color: #016cec;
+    color: #212529;
     margin: 15px 0 40px 0;
     text-align: center;
     font-weight: 800;
@@ -673,9 +636,8 @@ margin-top: -90px;
 .header__img{
   display: inline-block;
   vertical-align: middle;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  height: 35px;
+  width: 50px;
 
 }
 
@@ -683,19 +645,51 @@ margin-top: -90px;
   display: inline-block;
   vertical-align: middle;
 }
-
+.header__title{
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+}
 
 .header__light{
   color: #8198ae;
 }
 
+.header__btext{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
+  color: #fff;
+}
 
 
+.header__link2{
+   margin: 10px 10px 10px 20px;
+    color: #1f4568;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
+}
 
+.header__link2:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
 
+.header__link{
+    color: #1f4568;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
 
-
-
+}
+.header__link:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
 .navbar-toggle .icon-bar{
   background-color: #8198ae;
 }
@@ -956,9 +950,6 @@ padding: 15px 25px;
 }
 
 @media screen and (max-width:1024px){
-
-
-
   .collapse{
  display: none;
 }
@@ -1009,7 +1000,7 @@ padding: 15px 25px;
 
    .site__subtitle{
     font-size: 25px;
-    color: #016cec;
+    color: #212529;
     margin: 20px 0 40px 0;
     text-align: center;
     font-weight: 800;
@@ -1023,10 +1014,9 @@ padding: 15px 25px;
 
 
 
-
    .site__subtitle{
     font-size: 25px;
-    color: #016cec;
+    color: #212529;
     margin: 20px 0 40px 0;
     text-align: center;
     font-weight: 800;
@@ -1049,11 +1039,9 @@ padding: 15px 25px;
 @media screen and (max-width:767px){
 
 
-
-
   .site__subtitle{
     font-size: 25px;
-    color: #016cec;
+    color: #212529;
     margin: 20px 0 40px 0;
     text-align: center;
     font-weight: 800;
@@ -1110,20 +1098,53 @@ padding: 15px 25px;
 
 @media screen and (max-width:480px){
 
-
-
-
-
    .site__subtitle{
     font-size: 25px;
-    color: #016cec;
+    color: #212529;
     margin: 20px 0 40px 0;
     text-align: center;
     font-weight: 800;
     font-family: Ubuntu,sans-serif;
 }
 
+.header__link2{
+   margin: 10px 10px 10px 20px;
+    color: #1f4568;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Ubuntu,sans-serif;
+    
+}
+.header__link2:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
 
+ .button-payouts-signup{
+  padding: 0 15px;
+  display: inline-block;
+  color: #1f4568;
+  font-size: 14px;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 7px 7px;
+  margin: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
+  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
+}
+
+
+
+ 
 
   .counter {
   font-size: 30px;
