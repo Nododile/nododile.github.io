@@ -3,13 +3,13 @@
 
 
 html, body{
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background-color: #e8eaf0;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position: center;
 }
 
 
@@ -284,8 +284,6 @@ p,a,h1,h2,h3,h4 {
 Team - End
 ##############################################
 */
-
-
 
 
 
