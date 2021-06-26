@@ -10,6 +10,76 @@ html, body{
 }
 
 
+/*###############################################################
+Navigation - start
+################################################################
+*/
+.button-nav{
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 15px;
+  background-color:#016cec;
+  text-decoration: none;
+}
+
+.header__link{
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+  color: #1f4568;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
+}
+
+.header__link:link{
+  text-decoration: none;
+}
+.header__link:visited{
+  text-decoration: none;
+}
+
+.header__link:hover{
+  text-decoration: none;
+  color:#3a9fff;
+}
+.header__link:active{
+  text-decoration: none;
+}
+.header__btext{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu,sans-serif;
+  color: #fff;
+}
+.header__btext:link{
+  text-decoration: none;
+}
+.header__btext:visited{
+  text-decoration: none;
+}
+.header__btext:hover{
+  text-decoration: none;
+}   
+.header__btext:active{
+  text-decoration: none;
+}
+
+/*#############################################
+Navigation - end
+##############################################
+*/
+
+
+
+
+
 
 /*Team - start*/
 p,a,h1,h2,h3,h4 {
@@ -107,35 +177,8 @@ p,a,h1,h2,h3,h4 {
 
 /*Team - End*/
 
-.header__btext{
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: Ubuntu,sans-serif;font-size: 14px;
-}
-.header__btext:hover{
-  text-decoration: none;
-  color:#fff;
-}
 
-.button-payouts-signup{
-  padding: 0 25px;
-  display: inline-block;
-  font-size: 10px;
-  text-align: center;
-  border-radius: 35px;
-  padding: 10px 10px;
-  margin: 15px;
-  -webkit-animation: glowing 1500ms infinite;
-  -moz-animation: glowing 1500ms infinite;
-  -o-animation: glowing 1500ms infinite;
-  animation: glowing 1500ms infinite;
-}
-@-webkit-keyframes glowing {
-  0% { background-color:#016cec; -webkit-box-shadow: 0 0 3px #016cec; }
-  50% { background-color: #016cec; -webkit-box-shadow: 0 0 40px #016cec; }
-  100% { background-color: #016cec; -webkit-box-shadow: 0 0 3px #016cec; }
-}
+
 
 body{
  
@@ -248,23 +291,16 @@ body{
 .header__img{
   display: inline-block;
   vertical-align: middle;
-  height: 35px;
+  height: 50px;
   width: 50px;
-
+  border-radius: 50%;
 }
 
 .header__logo, .header__menu{
   display: inline-block;
   vertical-align: middle;
 }
-.header__title{
-  font-size: 18px;
-  margin: 0;
-  margin-left: 10px;
-  display: inline-block;
-  line-height: 18px;
-  vertical-align: middle;
-}
+
 
 .header__light{
   color: #8198ae;
