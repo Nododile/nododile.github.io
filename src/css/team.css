@@ -129,7 +129,7 @@ Team title - start
 .section-team .word {
   animation-iteration-count: infinite;
   animation-name: anim;
-  animation-duration: 10s; 
+  animation-duration: 5s; 
 }
 
 
