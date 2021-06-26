@@ -84,7 +84,7 @@ Team title - start
 ##############################################
 */
 
-.demo {
+.section-team .demo {
   padding: 3%;
   text-align: center;
   left: 50%;
@@ -95,45 +95,45 @@ Team title - start
 }
 
 
-.wisteria {
+.section-team .wisteria {
   color: #000;
 }
 
-.belize {
+.section-team .belize {
   color: #cbf50e;
 }
 
-.pomegranate {
+.section-team .pomegranate {
   color: #c0392b;
 }
 
-.green {
+.section-team .green {
   color: #16a085;
 }
 
-.midnight {
+.section-team .midnight {
   color: #2c3e50;
 }
 
-.word {
+.section-team .word {
   animation-iteration-count: infinite;
   animation-name: anim;
   animation-duration: 7.5s; 
 }
 
-.word:nth-child(2) {
+.section-team .word:nth-child(2) {
   animation-delay: 1.5s;
 }
 
-.word:nth-child(3) {
+.section-team .word:nth-child(3) {
   animation-delay: 3s;
 }
 
-.word:nth-child(4) {
+.section-team .word:nth-child(4) {
   animation-delay: 4.5s;
 }
 
-.word:nth-child(5) {
+.section-team .word:nth-child(5) {
   animation-delay: 6s;
 }
 
