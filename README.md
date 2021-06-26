@@ -1,14 +1,12 @@
 # Hi. Welcome to C-Vity Web Development Repo!
-- I envisioned C-Vity has a tool where people can use to make professional, decent and well-written CV or resumes with motivational letters included.
-- So far it is an active personal project.
+- I envisioned C-Vity has a tool where people can use to make access all job opportunities, seamlessly.
+- So far it is an active project.
 
 ### Info
  - C-Vity Website
- - Launched a way where people can make people via C-Vity Payouts, check it and sign up then start working, here [C-Vity Payout](https://c-vity.com/payouts)
  - Domain https://6636345e.github.io/c-vity/
 
 ### Want to contribute?
 - Make a pull request(PR)
-- I will be making a contributors' list anytime soon 
 - More updates & info coming!
-- Send me a text 6636345e@protonmail.com
+- Send me a text mycvity@gmail.com
