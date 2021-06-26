@@ -3,9 +3,6 @@
 
 
 html, body{
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position: center;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
@@ -287,6 +284,13 @@ Team - End
 
 
 
+
+body{
+ 
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
 
 .sect{
   padding: 90px 0;
