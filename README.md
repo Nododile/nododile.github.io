@@ -1,6 +1,6 @@
 # Hi. Welcome to C-Vity Web Development Repo!
 - I envisioned C-Vity has a tool where people can use to make access all job opportunities, seamlessly.
-- So far it is an active project.
+- So far it is an active project, working branch _Mission_.
 
 ### Info
  - C-Vity Website
