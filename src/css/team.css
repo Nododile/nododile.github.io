@@ -94,11 +94,7 @@ Team title - start
   font-family: Ubuntu,sans-serif;
 }
 
-.section-team p {
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
-}
+
 
 .section-team .word {
   position: absolute;
