@@ -8,5 +8,4 @@
 
 ### Want to contribute?
 - Make a pull request(PR)
-- More updates & info coming!
 - Send me a text mycvity@gmail.com
