@@ -8,4 +8,4 @@
 
 ### Want to contribute?
 - Make a pull request(PR)
-- Send me a text mycvity@gmail.com
+- Send me a text reply@c-vity.com
