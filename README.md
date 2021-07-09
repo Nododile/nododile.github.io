@@ -4,7 +4,7 @@
 
 ### Info
  - C-Vity Website
- - Domain https://6636345e.github.io/c-vity/
+ - Domain https://c-vity.com/ 
 
 ### Want to contribute?
 - Make a pull request(PR)
